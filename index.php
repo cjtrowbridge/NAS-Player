@@ -6,7 +6,7 @@ $FileSVG      = "<?xml version=\"1.0\" encoding=\"utf-8\"?><!DOCTYPE svg PUBLIC 
 //TODO make this automatically know wherever it is
 $Path = '/var/www';
 
-if(isset($_GET['path']))){
+if(isset($_GET['path'])){
   //Validate Path
   
 }else{
@@ -38,7 +38,7 @@ function NASPlayer(){
   }
 }
 
-?><!DOCTPYE html>
+?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
